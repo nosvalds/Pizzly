@@ -22,6 +22,7 @@ interface SetupRecord {
 interface IContextSessionData {
   session: {
     context: any
+    authConfig: any
   }
 }
 
